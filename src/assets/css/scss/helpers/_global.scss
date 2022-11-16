@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Josefin+Sans:wght@200;300;400;500;600;700&family=La+Belle+Aurore&family=Lobster&family=Lora:ital,wght@1,400;1,500;1,600;1,700&family=Mochiy+Pop+One&family=Open+Sans:wght@300;400;500;600;700&family=Pacifico&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Quicksand:wght@300;400;600;700&family=Raleway:ital,wght@0,500;0,700;1,400&family=Roboto:wght@100&family=Shadows+Into+Light&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --maincolor:#293383
+}
+.btn-bg{
+    background-color: #F5C614;
+}
+.footer-color{
+    color:#F5C614 ;
+}
+.border-color{
+    color: #ADB5BD;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+}

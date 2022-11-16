@@ -1,0 +1,25 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  // content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}", ],
+  theme: {
+      extend: {},
+      screens: {
+        mobile: "576px",
+        tablet: "960px",
+        large: "1190px",
+        desktop:'1280'
+      },
+      container: {
+        center:true,
+        padding: {
+          DEFAULT: "1rem",
+          mobile: "2rem",
+          tablet: "3rem",
+          large: "4rem",
+
+          desktop: "6.75rem",
+        },
+  },
+},
+  purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
+}
